@@ -13,5 +13,24 @@
     "front-end"
   ],
   "author": "Ilona",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.29.1",
+    "del": "^7.0.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemap": "^1.0.2",
+    "gulp-uglify": "^3.0.2",
+    "normalize.css": "^8.0.1",
+    "sass": "^1.62.0"
+  }
 }
